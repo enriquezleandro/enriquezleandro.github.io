@@ -27,6 +27,11 @@ const educacion = ref([
     universidad: "Universidad Católica de Santa Fe",
   },
   {
+    fecha: "2014",
+    title: "Lengua francesa",
+    universidad: "Universidad Nacional de Misiones",
+  },
+  {
     fecha: "2011",
     title: "Tecnico en reparacion de computadoras",
     universidad: "IESA",

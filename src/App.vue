@@ -1,7 +1,7 @@
 <script setup>
 import NavBar from "./components/NavBar.vue";
 import DatosPersonales from "./components/DatosPersonales.vue";
-import Educacion from "./components/EducacionComponente.vue";
+import EducacionComponente from "./components/EducacionComponente.vue";
 import ExperienciaComponente from "./components/ExperienciaComponente.vue";
 import HabilidadesComponente from "./components/HabilidadesComponente.vue";
 </script>
@@ -19,7 +19,7 @@ import HabilidadesComponente from "./components/HabilidadesComponente.vue";
     <section id="educacion">
       <h2>Educación.</h2>
       <!--Componente Educación-->
-      <Educacion />
+      <EducacionComponente />
     </section>
     <section id="experiencia">
       <h2>Experiencia.</h2>
