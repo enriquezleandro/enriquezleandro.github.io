@@ -61,7 +61,7 @@ const experiencias = ref([
 
 <style scoped>
 .card {
-  background:black;
+  background: black;
   background-image: url(./imagenfondo.png);
   background-size: 120%;
   border-radius: 30px;

@@ -13,8 +13,8 @@ fechaColor.value = [
 const educacion = ref([
   {
     fecha: "2025",
-    title: "Tecnicatura Universitaria en Programacion",
-    universidad: "Universidad Tecnologica Nacional",
+    title: "Tecnicatura Universitaria en Programación",
+    universidad: "Universidad Tecnológica Nacional",
   },
   {
     fecha: "2023",
@@ -24,7 +24,7 @@ const educacion = ref([
   {
     fecha: "2019",
     title: "Arquitecto",
-    universidad: "Universidad Catolica de Santa Fe",
+    universidad: "Universidad Católica de Santa Fe",
   },
   {
     fecha: "2014",
@@ -45,7 +45,7 @@ const educacion = ref([
 </script>
 
 <template>
-<div class="card">
+  <div class="card">
     <ul>
       <li
         v-for="(item, index) in educacion"
@@ -62,7 +62,7 @@ const educacion = ref([
 
 <style scoped>
 .card {
-  background:linear-gradient(180deg,rgb(249, 245, 241), rgb(227, 223, 220));
+  background: linear-gradient(180deg, rgb(249, 245, 241), rgb(227, 223, 220));
   border-radius: 30px;
   text-align: center;
   transition: transform 0.6s ease;
@@ -72,34 +72,32 @@ const educacion = ref([
 .card:hover {
   transform: scale(1.01);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    }
+}
 
-
-
-
-div{
+div {
   text-align: left;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1rem;
   font-weight: 600;
   padding: 5px 12px;
   margin: 0px;
-
-
 }
-.fecha{
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size:2rem;
+.fecha {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
   font-weight: 600;
 }
-ul{
-  margin:0px;
+ul {
+  margin: 0px;
   padding: 20px;
 }
-.title,.universidad{
+.title,
+.universidad {
   color: rgb(121, 121, 121);
 }
-li{
-  margin:0px 0px 20px 0px
+li {
+  margin: 0px 0px 20px 0px;
 }
 </style>

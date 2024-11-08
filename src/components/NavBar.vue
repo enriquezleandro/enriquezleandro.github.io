@@ -34,30 +34,28 @@ const navegacion = ref([
   color: rgb(29, 29, 31); /* Establece el color del texto en blanco */
   padding: 1rem 1rem; /* Añade un padding de 0.5rem arriba y abajo, y 1rem a los lados */
   align-items: center; /* Centra verticalmente los elementos dentro de la navbar */
-
 }
 
 .navbar-item {
   color: rgb(0, 0, 0); /* Establece el color del texto en blanco */
-text-decoration: none;
+  text-decoration: none;
   margin-right: 1rem; /* Añade un margen derecho de 1rem entre los elementos */
 }
 
 .navbar-menu {
   display: flex; /* Organiza los elementos en línea usando flexbox */
   justify-content: flex-end; /* Alinea los elementos al final de la navbar */
-
 }
 
 .nav-list {
   list-style: none; /* Elimina los puntos o números de las listas */
-
 }
 
 a {
   padding: 5px; /* Añade un padding de 5px alrededor del contenido */
   color: rgb(0, 0, 0);
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   text-decoration: none;
 }

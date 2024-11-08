@@ -28,7 +28,7 @@ import HabilidadesComponente from "./components/HabilidadesComponente.vue";
     </section>
     <section id="habilidades">
       <!--Componente Habilidades-->
-      <h2>Habilidades</h2>
+      <h2>Habilidades.</h2>
       <HabilidadesComponente />
     </section>
   </main>
